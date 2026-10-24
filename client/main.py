@@ -19,7 +19,7 @@ from api import ApiClient, ApiError
 from windows import ChangePasswordDialog, ContactAdminWindow, center_window, run_in_background
 
 # ======================= SETTINGS =======================
-IMAGE_PATH = "../pexels-kathlene-1676830-35493874.png"
+IMAGE_PATH = "pexels-kathlene-1676830-35493874.png"
 
 # "contain" = the whole picture is visible (empty space is filled with PANEL_COLOR)
 # "fill"    = the picture covers the whole panel (the edges may be cropped)
