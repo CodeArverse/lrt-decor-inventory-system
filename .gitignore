@@ -1,0 +1,26 @@
+# ---- SECRETS & DATA: never commit these ----
+server.env
+.env
+secret.key
+email_config.json
+server_url.txt
+data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+
+# ---- Python / build output ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
